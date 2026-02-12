@@ -1,0 +1,55 @@
+frontend:
+  accessibility:
+    description: Atributos ARIA, acessibilidade em componentes e formulários
+  api-integration:
+    description: Cliente Axios, formato de resposta, services e tratamento de erros
+  components:
+    description: Estrutura de componentes, styled-components, formulários e UI
+  css:
+    description: styled-components, temas, Tailwind e estilos globais
+  forms:
+    description: Componentes de formulário, validação e máscaras
+  frameworks:
+    description: React, TypeScript e dependências do frontend
+  hooks:
+    description: Hooks nativos e customizados, uso e organização
+  icons:
+    description: Ícones do sistema e uso em componentes
+  loading-states:
+    description: Estados de carregamento, skeleton e feedback
+  pages:
+    description: Estrutura de páginas, index.tsx + styles.ts, uso de contexto e rotas
+  responsive:
+    description: Breakpoints, layout responsivo e mobile
+  routing:
+    description: React Router, PrivateRoutes, rotas públicas e privadas
+  state-management:
+    description: Context API, UserContext, SidebarFiltrosContext e estado local
+  testing:
+    description: Testes no frontend, estrutura e padrões
+  ui-components:
+    description: Componentes de UI genéricos e reutilizáveis
+
+global:
+  architecture:
+    description: Arquitetura do sistema, estrutura de pastas e organização
+  coding-style:
+    description: Estilo de código, formatação e convenções gerais
+  coding:
+    description: Padrões de codificação e boas práticas
+  commenting:
+    description: Padrões de comentários e documentação inline
+  conventions:
+    description: Convenções gerais, nomenclatura e estrutura
+  error-handling:
+    description: Tratamento de erros global
+  single-source-reuse:
+    description: Fonte única por conceito, reutilização de código e consulta à base antes de escrever
+  tech-stack:
+    description: Stack tecnológico e dependências
+  validation:
+    description: Validação de dados e regras
+
+testing:
+  test-writing:
+    description: Padrões de escrita de testes, estrutura e boas práticas

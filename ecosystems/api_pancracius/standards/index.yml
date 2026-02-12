@@ -1,0 +1,69 @@
+backend:
+  api:
+    description: Endpoints da API, convenções REST e listagem de rotas principais
+  authentication:
+    description: Autenticação e autorização no Fênix
+  controllers:
+    description: Controller fino, autocomplete, indexBehavior e convenções de métodos
+  database:
+    description: Conexões, configuração e uso do banco de dados
+  dtos:
+    description: Data Transfer Objects e convenções de construção
+  enums:
+    description: Enums para valores fixos (BancoDeDados, Module, StatusAtividade)
+  exceptions:
+    description: Tratamento e hierarquia de exceções
+  external-clients:
+    description: Clientes de APIs externas (HttpClient, getBaseUrl, tratamento de erro)
+  form-requests:
+    description: Form Requests por domínio, traits TemBancoVariavel e VerificaRecursoDoEscritorio
+  file-storage:
+    description: Armazenamento de arquivos
+  laravel:
+    description: Convenções e uso do Laravel no projeto
+  middleware:
+    description: Middleware e ordem de execução
+  migrations:
+    description: Migrações de banco de dados
+  model-interfaces:
+    description: Autocompletable e RecursoRestrito para modelos
+  models:
+    description: Modelos Eloquent, BaseModel e nomenclatura
+  multi-tenancy:
+    description: Múltiplos bancos (iturn, oabes, oabmg) e header database
+  observers:
+    description: Observers para log/auditoria, entidade e dtoService
+  queries:
+    description: Consultas, repositórios e paginação
+  queue:
+    description: Filas e jobs
+  repositories:
+    description: Interface Repository, ModelRepository, paginação e safeDelete
+  resources:
+    description: HTTP Resources (Show, Collection, AutocompleteResource, whenLoaded)
+  response-format:
+    description: Envelope apiResponse, quando usar Resource direto e status HTTP
+  services-domain:
+    description: Services por agregado, ações em classes (Cria, Update, Delete)
+global:
+  architecture:
+    description: Visão geral da arquitetura do Fênix
+  coding:
+    description: Estilo e convenções de código
+  coding-style:
+    description: Formatação e nomenclatura
+  commenting:
+    description: Comentários e documentação no código
+  conventions:
+    description: Convenções gerais do projeto
+  error-handling:
+    description: Tratamento de erros global
+  single-source-reuse:
+    description: Fonte única de verdade e reuso
+  tech-stack:
+    description: Stack tecnológico do projeto
+  validation:
+    description: Validação de entrada
+testing:
+  test-writing:
+    description: Padrões de testes com Pest e Laravel Testing

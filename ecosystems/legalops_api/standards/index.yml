@@ -1,0 +1,85 @@
+backend:
+  api:
+    description: Padrões e convenções de endpoints de API, rotas, middlewares e formato de resposta
+  authentication:
+    description: Autenticação JWT, login, sessões e permissões
+  complex-filters:
+    description: Métodos auxiliares para aplicar filtros complexos em repositories, transformação de dados e subqueries
+  controller-error-handling:
+    description: Tratamento de erros em controllers, padrão try/catch com SuccessReturn e ErrorReturn
+  data-isolation:
+    description: Isolamento de dados por tipo de usuário, filtros de acesso e expansão de ilhas
+  data-normalization:
+    description: Normalização automática de strings no BaseRepositories, conversão de caracteres Unicode
+  database:
+    description: Padrões de banco de dados, modelos, consultas e relacionamentos
+  dtos:
+    description: Data Transfer Objects, estruturas de dados e interfaces
+  email:
+    description: Envio de emails, templates e configurações
+  exceptions:
+    description: Tratamento de exceções, erros customizados e códigos de erro
+  file-storage:
+    description: Armazenamento de arquivos, estratégias S3 e local
+  helpers:
+    description: Funções auxiliares, utilitários e helpers
+  helpers-utilities:
+    description: Helpers e utilitários reutilizáveis, escape de strings, sanitização de arquivos
+  history-and-logging:
+    description: Histórico de propostas, logs e auditoria
+  history-logging-patterns:
+    description: Padrões de histórico e logging, dois níveis de auditoria, enriquecimento de dados
+  integrations:
+    description: Integrações externas, APIs e serviços
+  middleware:
+    description: Middlewares customizados, autenticação e validação
+  migrations:
+    description: Migrações de banco de dados, estrutura e versionamento
+  models:
+    description: Modelos de dados, entidades e relacionamentos
+  notifications:
+    description: Criação e envio de notificações, estrutura padronizada, múltiplos destinatários
+  parts-management:
+    description: Gestão de partes de processos e partes representadas
+  queries:
+    description: Padrões de queries, consultas complexas e otimizações
+  queue:
+    description: Filas de processamento, jobs e tarefas assíncronas
+  repositories:
+    description: Padrões de repositories, BaseRepositories e acesso a dados
+  request-context:
+    description: Propriedades adicionadas ao req pelo middleware auth, contexto de usuário
+  request-metadata:
+    description: Captura de User-Agent, detecção de tipo de dispositivo e metadata de requisição
+  service-structure:
+    description: Estrutura de services, métodos privados e públicos, injeção de dependências
+  services:
+    description: Padrões de services, lógica de negócio e organização
+  status-transitions:
+    description: Transições de status, validação de mudanças de estado
+  validator-errors:
+    description: Estrutura de erros em validators, acumulação e lançamento de erros de validação
+
+global:
+  architecture:
+    description: Arquitetura do sistema, estrutura de pastas e organização
+  coding-style:
+    description: Estilo de código, formatação e convenções gerais
+  coding:
+    description: Padrões de codificação, boas práticas e diretrizes
+  commenting:
+    description: Padrões de comentários, documentação inline
+  conventions:
+    description: Convenções gerais do projeto, nomenclatura e estrutura
+  error-handling:
+    description: Tratamento de erros global, padrões de exceção
+  single-source-reuse:
+    description: Fonte única por conceito, reutilização de código e consulta à base antes de escrever
+  tech-stack:
+    description: Stack tecnológico, dependências e ferramentas
+  validation:
+    description: Validação de dados, regras e padrões
+
+testing:
+  test-writing:
+    description: Padrões de escrita de testes, estrutura e boas práticas
