@@ -28,19 +28,19 @@ Do not hallucinate workflows. Use the defined Master Commands in `commands/` to 
 * **Trigger:** User asks to "Plan", "Diagnose" or "/bug-plan [KEY]"
 * **Action:**
   1. Identify the **Target Project**.
-  2. Read and execute: `commands/bug-plan.md`.
+  2. Read and execute: `commands/1-bug-plan.md`.
   3. Context: Analyze code in `[TARGET]/` but read rules from `[SOURCE]/standards/`.
 
 ### 🛠️ IMPLEMENTATION (FIX)
 * **Trigger:** User asks to "Fix", "Implement" or "/bug-fix [KEY]"
 * **Action:**
-  1. Read and execute: `commands/bug-fix.md`.
+  1. Read and execute: `commands/2-bug-fix.md`.
   2. Context: Read `plan.md` inside `[TARGET]/agent-os/bugs/[KEY]/`.
 
 ### 🧐 QUALITY CONTROL (REVIEW)
 * **Trigger:** User asks to "Review", "Check" or "/bug-review [KEY]"
 * **Action:**
-  1. Read and execute: `commands/bug-review.md`.
+  1. Read and execute: `commands/3-bug-review.md`.
   2. Context: Compare `fix.md` vs `standards` of the specific ecosystem.
 
 ---
