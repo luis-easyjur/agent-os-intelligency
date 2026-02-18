@@ -1,5 +1,13 @@
 # MASTER COMMAND: BUG REVIEW (Orchestrator Mode)
 
+> **⚠️ INSTRUÇÃO DE SISTEMA:**
+> 1. Analise a Key do JIRA (ex: `EASYJUR` ou `OPS`).
+> 2. Identifique o projeto físico na tabela do `.cursorrules` (ex: `../app`, `../fenix`).
+> 3. **TODA** a execução deste prompt deve acontecer considerando esse diretório alvo como a raiz.
+> 4. Crie a pasta `agent-os/bugs/{{bug_id}}` DENTRO desse diretório alvo.
+
+---
+
 **OBJETIVO:** Revisar a correção aplicada para garantir qualidade e conformidade com o plano.
 **NÃO GERE CÓDIGO NESTA ETAPA.** Apenas analise.
 

@@ -1,5 +1,13 @@
 # MASTER COMMAND: BUG FIX (Orchestrator Mode)
 
+> **⚠️ INSTRUÇÃO DE SISTEMA:**
+> 1. Analise a Key do JIRA (ex: `EASYJUR` ou `OPS`).
+> 2. Identifique o projeto físico na tabela do `.cursorrules` (ex: `../app`, `../fenix`).
+> 3. **TODA** a execução deste prompt deve acontecer considerando esse diretório alvo como a raiz.
+> 4. Crie a pasta `agent-os/bugs/{{bug_id}}` DENTRO desse diretório alvo.
+
+---
+
 **OBJETIVO:** Aplicar a correção seguindo rigorosamente o plano, alterando o mínimo de código possível.
 **PRÉ-REQUISITOS:** `plan.md` aprovado na pasta do bug dentro do projeto alvo.
 
