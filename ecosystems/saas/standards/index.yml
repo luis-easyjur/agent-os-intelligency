@@ -1,0 +1,57 @@
+backend:
+  api:
+    description: Padrões RESTful, estrutura de rotas, parsing de request body, formato de resposta HTTP
+  database:
+    description: Segurança de banco de dados, prepared statements, logging com db_log_elastic, operações permitidas
+  middleware-api:
+    description: Comunicação com middleware externo via send_middleware_request, roteamento automático de hosts, upload/download de arquivos
+  migrations:
+    description: Estrutura de arquivo de migração, convenções de nomenclatura, padrões de rollback
+  models:
+    description: Padrões de tabelas e estrutura de banco de dados MySQL, convenções de nomenclatura
+  queries:
+    description: Padrões de consultas SQL, prepared statements, segurança em queries
+
+frontend:
+  accessibility:
+    description: Padrões de acessibilidade, ARIA labels, navegação por teclado
+  components:
+    description: Padrões de componentes e elementos de UI, Bootstrap 5, jQuery
+  css:
+    description: Padrões de estilização CSS, organização de arquivos, convenções de classes
+  frameworks:
+    description: Uso de frameworks frontend, Bootstrap, jQuery, integração
+  responsive:
+    description: Design responsivo, breakpoints, adaptação mobile
+
+global:
+  architecture:
+    description: Arquitetura do sistema, estrutura monolítica, organização de código
+  coding:
+    description: Padrões gerais de código, boas práticas, estrutura de arquivos
+  coding-style:
+    description: Estilo de código, formatação, convenções de nomenclatura, linting
+  commenting:
+    description: Padrões de comentários, documentação inline, PHPDoc
+  conventions:
+    description: Convenções gerais do projeto, nomenclatura, estrutura
+  custom-exceptions:
+    description: Exceções customizadas por domínio, tratamento hierárquico, códigos de erro
+  date-conversion:
+    description: Conversão entre formato brasileiro (DD/MM/YYYY) e ISO (YYYY-MM-DD)
+  error-handling:
+    description: Tratamento de erros, mensagens amigáveis, exceções, logging
+  includes:
+    description: Estrutura de includes usando $_SERVER['DOCUMENT_ROOT'], caminhos absolutos
+  single-source-reuse:
+    description: Fonte única por conceito, reutilização de código, evitar duplicação, constantes e utilitários compartilhados
+  tech-stack:
+    description: Stack tecnológico do projeto, tecnologias utilizadas
+  validation:
+    description: Padrões de validação de dados, regras de negócio, validação de formulários
+  validation-security:
+    description: Função verifica_valor para proteção contra SQL injection, validação de segurança
+
+testing:
+  test-writing:
+    description: Padrões de escrita de testes, estrutura, boas práticas
